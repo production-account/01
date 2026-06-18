@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* mv */
+.mv {
+  width: 100vw;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.bag-extrasmall .mv {
+  background-image: url(../img/sp/bag/extrasmall/eyecatching.jpg);
+  background-position: left;
+}
+
+.bag-small .mv {
+  background-image: url(../img/sp/bag/small/eyecatching.jpg);
+  background-position: left;
+}
+
+.bag-medium .mv {
+  background-image: url(../img/sp/bag/medium/eyecatching.jpg);
+}
+
+.bag-large .mv {
+  background-image: url(../img/sp/bag/large/eyecatching.jpg);
+  background-position: top;
+}
+
+.bag-extralarge .mv {
+  background-image: url(../img/sp/bag/extralarge/eyecatching.jpg);
+  background-position: left;
+}
+
+/* TAB */
+.tab_item {
+  width: calc(100% / 3);
+}
+
+.ohter {
+  width: min(90%, 1000px);
+  border: 1px solid var(--romantic-pink);
+  border-radius: 15px;
+  margin: auto;
+  margin: 100px auto;
+}
+
+.ohter p {
+  position: relative;
+  top: 50px;
+  font-size: var(--font-18-16);
+  color: var(--romantic-pink);
+  letter-spacing: 0.05em;
+  margin: auto;
+  text-align: center;
+}
+
+.ohter-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: auto;
+  padding: 0 2rem 2rem;
+  border-radius: 15px;
+}
+
+.ohter-wrap li {
+  width: min(100%, 150px);
+  font-size: 12px;
+  text-align: center;
+  line-height: 3;
+  letter-spacing: 0.05em;
+}
+
+/* .event-unset {
+  pointer-events: none;
+  filter: contrast(0.2);
+} */
+
+@media (min-width: 780px) {
+  .bag-extrasmall .mv  {
+    background-image: url(../img/pc/bag/extrasmall/eyecatching.jpg);
+    background-position: bottom;
+  }
+  .bag-small .mv  {
+    background-image: url(../img/pc/bag/small/eyecatching.jpg);
+    background-position: bottom;
+  }
+  .bag-medium .mv  {
+    background-image: url(../img/pc/bag/medium/eyecatching.jpg);
+  }
+  .bag-large .mv  {
+    background-image: url(../img/pc/bag/large/eyecatching.jpg);
+  }
+  .bag-extralarge .mv {
+    background-image: url(../img/sp/bag/extralarge/eyecatching.jpg);
+  }
+  .know-wrap li {
+    min-height: 210px;
+  }
+  .ohter-wrap {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: unset;
+    padding: 3rem;
+  }
+  .ohter p {  
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: inline-block;
+  }
+}

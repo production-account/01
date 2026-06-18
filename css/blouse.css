@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* mv */
+.mv {
+  width: 100vw;
+  height: 300px;
+  background-image: url(../img/sp/blouse/eyecatching.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* TAB */
+.tab_item {
+  width: calc(100% / 3);
+}
+
+.toggle:checked + .accordion-title + .accordion-content.long {
+  min-height: 800px;
+}
+
+@media (min-width: 780px) {
+  .mv {
+    background-image: url(../img/pc/blouse/eyecatching.jpg);
+    background-position: 100%;
+  }
+}
