@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOUSE OF LOTUS | ギンガムチェックの服とカゴ</title>
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#a8431b">
+
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/top.css">
+  <script src="https://kit.fontawesome.com/4971f0f796.js" crossorigin="anonymous"></script>
+
+  <!-- <link rel="icon" href="./img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="./img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+  <link rel="manifest" href="./img/manifest.webmanifest"> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kurenaido&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+Antique&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+
+<body class="zen-kaku-gothic-antique-regular">
+  <header class="header">
+    <h1 class="heading-level1"><a href="#"><img src="./img/common/text/logo.svg" alt="HOUSE OF LOTUS ギンガムチェックの服とカゴ"
+          width="300" height="" /></a></h1>
+    <div class="hambuger-menu">
+      <input type="checkbox" id="menu-btn-check">
+      <label for="menu-btn-check" class="menu-btn">
+        <span></span>
+      </label>
+      <div class="menu-content">
+        <div class="menu-flex">
+          <div class="item">
+            <p>ラインナップ</p>
+            <div class="grid navigation">
+              <a href="./onepiece/index.html"><img src="./img/common/nav/linenup01.png" alt="ワンピース" width="140"
+                  height="140"><span>ワンピース</span></a>
+              <a href="./blouse/index.html"><img src="./img/common/nav/linenup02.png" alt="ブラウス" width="140"
+                  height="140"><span>ブラウス</span></a>
+              <a href="./pants/index.html"><img src="./img/common/nav/linenup03.png" alt="ミラーパンツ" width="140"
+                  height="140"><span>ミラーパンツ</span></a>
+              <a href="./sandal/index.html"><img src="./img/common/nav/linenup04.png" alt="サンダル" width="140"
+                  height="140"><span>サンダル</span></a>
+              <a href="./bag_extrasmall/index.html"><img src="./img/common/nav/linenup05.png" alt="プラカゴXS" width="140"
+                  height="140"><span>プラカゴXS</span></a>
+              <a href="./bag_small/index.html"><img src="./img/common/nav/linenup06.png" alt="プラカゴS" width="140"
+                  height="140"><span>プラカゴS</span></a>
+              <a href="./bag_medium/index.html"><img src="./img/common/nav/linenup07.png" alt="プラカゴM" width="140"
+                  height="140"><span>プラカゴM</span></a>
+              <a href="./bag_large/index.html"><img src="./img/common/nav/linenup08.png" alt="プラカゴL" width="140"
+                  height="140"><span>プラカゴL</span></a>
+              <a href="./bag_extralarge/index.html"><img src="./img/common/nav/linenup09.png" alt="プラカゴXL" width="140"
+                  height="140"><span>プラカゴXL</span></a>
+            </div>
+          </div>
+          <div class="notice">
+            <p>関連コンテンツ</p>
+            <div class="grid column">
+              <a href=""><img src="./img/common/nav/banner1.webp" alt="予告１" width="245"
+                  height="145"><span>桐島かれんさんインタビュー</span></a>
+              <a href=""><img src="./img/common/nav/banner2.webp" alt="予告２" width="245"
+                  height="145"><span>おおきな歩幅で。</span></a>
+              <a href=""><img src="./img/common/nav/banner3.webp" alt="予告３" width="245"
+                  height="145"><span>市場から、街へ。</span></a>
+              <a href=""><img src="./img/common/nav/banner4.webp" alt="予告４" width="245"
+                  height="145"><span>すばらしいものは消えていくけども。</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="carousel">
+    <div class="carousel__wrap src1">
+      <div class="carousel__wrap-ttl">
+        <span class="noto-serif-jp ">Onepiece</span>
+        <span>ギンガムチェック ワンピース</span>
+        <!-- <a href="./onepiece/index.html">詳しく見る</a> -->
+      </div>
+    </div>
+    <div class="carousel__wrap src2">
+      <div class="carousel__wrap-ttl">
+        <span class="noto-serif-jp ">Bag</span>
+        <span>プラカゴバッグ</span>
+        <!-- <a href="./bag_extrasmall/index.html">詳しく見る</a> -->
+      </div>
+    </div>
+    <div class="carousel__wrap src3">
+      <div class="carousel__wrap-ttl">
+        <span class="noto-serif-jp ">Blouse</span>
+        <span>ギンガムチェック ブラウス</span>
+        <!-- <a href="./blouse/index.html">詳しく見る</a> -->
+      </div>
+    </div>
+    <div class="carousel__wrap src4">
+      <div class="carousel__wrap-ttl">
+        <span class="noto-serif-jp ">Sandal</span>
+        <span>ビーズ刺繍サンダル</span>
+        <!-- <a href="./sandal/index.html">詳しく見る</a> -->
+      </div>
+    </div>
+    <div class="carousel__wrap src5">
+      <div class="carousel__wrap-ttl">
+        <span class="noto-serif-jp ">Pants</span>
+        <span>ミラーワークパンツ</span>
+        <!-- <a href="./pants/index.html">詳しく見る</a> -->
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <article>
+      <div class="read scrollbar noto-serif-jp">
+        <p>モデルの桐島かれんさんがクリエイティブディレクターを務める<br class="display-pc">HOUSE OF LOTUS（ハウス オブ ロータス）。</p>
+        <p>「Happiness of Life」をコンセプトに、さまざまな国の文化を巡って培った桐島かれんさんの美意識が「よそおう」「くらす」「もてなす」という切り口で表現されています。</p>
+        <p>
+          お店に並ぶのは、毎日の暮らしに、彩りを添えてくれるもの。2019年4月の「生活のたのしみ展」では、カラフルな服や小物をはじめ、世界各国からあつめた雑貨などがならびました。その中から、オリジナルの服と、これからの季節にうれしい小物がほぼ日ストアに登場します。
+        </p>
+        <p>ギンガムチェックの軽やかなワンピースやブラウス、着心地がよくておしゃれなパンツ、お買い物にもインテリアにも活躍するプラカゴ、キッチュでかわいいビーズサンダル。<br
+            class="display-pc">インドやベトナムの手仕事でつくられた、手にすれば、うれしい気分になるものが、華やかに、ずらりと登場です。</p>
+        <p>あかるくて、かわいくて、おしゃれ。この夏の毎日が、うんと楽しくなる、うれしいアイテムがならびますよ。</p>
+      </div>
+    </article>
+
+    <section>
+      <h2 class="lineup">
+        <figure>
+          <img src="./img/top/lineup.webp" alt="ラインナップ" loading="lazy" width="1200" height="530">
+          <figcaption class="noto-serif-jp">Line Up</figcaption>
+        </figure>
+      </h2>
+
+      <div class="clothing">
+        <a href="./onepiece/index.html">
+          <div class="itembox">
+            <img src="./img/top/item1.webp" alt="ギンガムチェックワンピース" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over1.webp" alt="ギンガムチェックワンピース" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>ギンガムチェック<br class="display-sp">ワンピース</li>
+            <li>（イエロー／ピンク／グリーン／ターコイズブルー／グレー／ブラック）</li>
+            <li>38,880円</li>
+          </ul>
+        </a>
+        <a href="./blouse/index.html">
+          <div class="itembox">
+            <img src="./img/top/item2.webp" alt="ギンガムチェックブラウス" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over2.webp" alt="ギンガムチェックブラウス" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>ギンガムチェック<br class="display-sp">ブラウス</li>
+            <li>（イエロー／ピンク／グリーン／ターコイズブルー／グレー／ブラック）</li>
+            <li>25,920円</li>
+          </ul>
+        </a>
+        <a href="./pants/index.html">
+          <div class="itembox">
+            <img src="./img/top/item3.webp" alt="ミラーワークパンツ" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over3.webp" alt="ミラーワークパンツ" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>ミラーワークパンツ</li>
+            <li>（ホワイト・ブラック・ネイビー）</li>
+            <li>19,440円</li>
+          </ul>
+        </a>
+        <a href="./sandal/index.html">
+          <div class="itembox">
+            <img src="./img/top/item4.webp" alt="ビーズ刺繍サンダル" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over4.webp" alt="ビーズ刺繍サンダル" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>ビーズ刺繍サンダル</li>
+            <li>（イエロー／レッド／グリーン／サックスブルー／ナチュラルホワイト／シルバー／ブラック）</li>
+            <li>3,024円</li>
+          </ul>
+        </a>
+        <a href="./bag_extrasmall/index.html">
+          <div class="itembox">
+            <img src="./img/top/item5.webp" alt="プラカゴバッグ（XS）" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over5.webp" alt="プラカゴバッグ（XS）" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>プラカゴバッグ（XS）</li>
+            <li>（イエロー／グリーン／グレー／サックスブルー／ブラック／ホワイト／レッド）</li>
+            <li>1,944円</li>
+          </ul>
+        </a>
+        <a href="./bag_small/index.html">
+          <div class="itembox">
+            <img src="./img/top/item6.webp" alt="プラカゴバッグ（S）" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over6.webp" alt="プラカゴバッグ（S）" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>プラカゴバッグ（S）</li>
+            <li>（イエロー／グリーン／グレー／サックスブルー／ブラック／ホワイト／レッド）</li>
+            <li>2,592円</li>
+          </ul>
+        </a>
+        <a href="./bag_medium/index.html">
+          <div class="itembox">
+            <img src="./img/top/item7.webp" alt="プラカゴバッグ（M）" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over7.webp" alt="プラカゴバッグ（M）" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>プラカゴバッグ（M）</li>
+            <li>（イエロー／グリーン／グレー／サックスブルー／ブラック／ホワイト／レッド）</li>
+            <li>3,024円</li>
+          </ul>
+        </a>
+        <a href="./bag_large/index.html">
+          <div class="itembox">
+            <img src="./img/top/item8.webp" alt="プラカゴバッグ（L）" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over8.webp" alt="プラカゴバッグ（L）" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>プラカゴバッグ（L）</li>
+            <li>（イエロー／グリーン／グレー／サックスブルー／ブラック／ホワイト／レッド）</li>
+            <li>3,024円</li>
+          </ul>
+        </a>
+        <a href="./bag_extralarge/index.html">
+          <div class="itembox">
+            <img src="./img/top/item9.webp" alt="プラカゴバッグ（XL）" loading="lazy" width="400" height="500" />
+            <img src="./img/top/item_over9.webp" alt="プラカゴバッグ（XL）" loading="lazy" width="400" height="500" />
+            <div class="mask display-pc">
+              <div class="caption"></div>
+            </div>
+          </div>
+          <ul>
+            <li>プラカゴバッグ（XL）</li>
+            <li>（イエロー／グリーン／グレー／サックスブルー／ブラック／ホワイト／レッド）</li>
+            <li>3,456円</li>
+          </ul>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <section class="sec-relevance">
+    <h2 class="noto-serif-jp">関連コンテンツ</h2>
+    <div class="relevance">
+      <a href="#">
+        <figure>
+          <img src="./img/top/banner1.webp" alt="予告１" loading="lazy" width="450" height="300">
+          <figcaption>桐島かれんさんインタビュー</figcaption>
+        </figure>
+      </a>
+      <a href="#">
+        <figure>
+          <img src="./img/top/banner2.webp" alt="予告２" loading="lazy" width="450" height="300">
+          <figcaption>おおきな歩幅で。</figcaption>
+        </figure>
+      </a>
+      <a href="#">
+        <figure>
+          <img src="./img/top/banner3.webp" alt="予告３" loading="lazy" width="450" height="300">
+          <figcaption>市場から、街へ。</figcaption>
+        </figure>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div id="footer" class="hiragino">
+      <div class="footer__flex">
+        <ul>
+          <li>スタッフ</li>
+          <li><span>スタイリング：</span>佐伯敦子</li>
+          <li><span>モデル：</span>小野りりあん</li>
+          <li><span>モデル写真：</span>尾嶝太</li>
+          <li><span>ヘアメイク：</span>福沢京子</li>
+          <li><span>商品写真：</span>安井智洋、星佳代子</li>
+          <li><span>取材：</span>武田景</li>
+        </ul>
+        <ul>
+          <li><a href="#"></a>特定商取引法・古物営業法に基づく表記</li>
+          <li><a href="#"></a>プライバシーポリシー</li>
+          <li><a href="#"></a>利用規約</li>
+          <li><a href="#"></a>運営会社について</li>
+        </ul>
+        <ul>
+          <li><a class="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a class="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+          <li><a class="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="#"><i class="fa-brands fa-line"></i></a></li>
+        </ul>
+      </div>
+      <small>©2024 HOUSE OF LOTUS</small>
+    </div>
+  </footer>
+</body>
+</html>
